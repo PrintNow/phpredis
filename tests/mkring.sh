@@ -3,6 +3,7 @@
 PORTS="6379 6380 6381 6382"
 REDIS=redis-server
 
+
 function start_node() {
 	P=$1
 	echo "starting node on port $P";
